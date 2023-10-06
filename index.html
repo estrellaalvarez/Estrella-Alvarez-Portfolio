@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+    <a href="/"><div class="button-1">Home</div></a>
+    <!-- <a href="#skills"><div class="button-1">Skills</div></a> -->
+    <a href="#projects"><div class="button-1">Works</div></a>
+    <a href="pdf\Estrella_A_Resume (12).pdf" target="_blank"><div class="button-1">Resume</div></a>
+    <a href="#contact"><div class="button-1">Contact</div></a>
+    </div>
+    <div class="hero">
+      <img src="images/me.jpg" class="me">
+      <h1 class="ea"><span>Hi, I'm Estrella <span> <br> Alvarez </span></h1>
+      <p class="bio">I’m a creative <span class="bold">Full-Stack Software Engineer</span> and <span class="bold">Web Designer</span>. Programming and designing are my outlets for my passions; art, gaming, and technology. I strive to constantly be learning, growing, and inclusive by embracing diversity.</p>
+    </div>
+    <div id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="skills-icons" data-aos="fade-right">
+      <div><img src="images\react.png" class="icon"><p class="skill-caption">React.js</p></div>
+      <div><img src="images\python.png" class="icon"><p class="skill-caption">Python</p></div>
+      <div><img src="images\javascript.png" class="icon"><p class="skill-caption">Javascript</p></div>
+      <div><img src="images\github.png" class="icon"><p class="skill-caption">GitHub</p></div>
+      <div><img src="images\mongodb.png" class="icondb"><p class="skill-caption">MongoDB</p></div>
+      <div><img src="images\figma.png" class="icon"><p class="skill-caption">Figma</p></div>
+      <div><img src="images\html.png" class="icon"><p class="skill-caption">HTML</p></div>
+      <div><img src="images\css.png" class="icon"><p class="skill-caption">CSS</p></div>
+      <div><img src="images\django.png" class="icon"><p class="skill-caption">Django</p></div>
+      </div>
+    </div>
+    <div id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="p3" data-aos="fade-up">
+        <h1 data-aos="fade-right" >Val.Halla <br><span>Full-stack(MERN) statistical application tracker for the game VALORANT.  Players can search through a third-party Riot Games API to search usernames to find player statistics.  Collaborated in a one week sprint in a team of four software engineers. 
+          <br><a href="https://github.com/estrellaalvarez/Project_3_Valorant" target="_blank" id="git">GitHub<img src="images\link.png" class="external-1"></a> <a href="https://val-halla-ga-sei725.netlify.app/" target="_blank" id="git">Live Site<img src="images\link.png" class="external"></a>
+        </span></h1>
+        <img src="images\val.hal.png" class="project-img" data-aos="fade-up">
+    </div>
+      <div class="p2" data-aos="fade-up">
+        <h1 data-aos="fade-right">KIBI <br><span>Reverse-engineered a responsive, full-stack eCommerce application that features the 7 RESTful routes and a direct user flow in a team of 3 engineers. 
+          <br><a href="https://github.com/estrellaalvarez/KIBI-E-COMMERCE-STORE" target="_blank" id="git">GitHub<img src="images\link.png" class="external-3"></a> <a href="https://kibi-e-commerce.herokuapp.com/" target="_blank" id="git">Live Site<img src="images\link.png" class="external"></a>
+        </span></h1>
+        <img src="images\Home1.png" class="project-img"data-aos="fade-up" >
+    </div>
+      <div class="p1" data-aos="fade-up">
+        <h1 data-aos="fade-right">Frogger<br><span>Responsive browser-based rendition of the 1981 arcade game Frogger. 
+        Implemented a timer, conditionals, functions, and designed illustrations to create an addicting and fun player-driven experience.
+        <br><a href="https://github.com/estrellaalvarez/Frogger" target="_blank" id="git">GitHub<img src="images\link.png" class="external"></a> <a href="https://estrellaalvarez.github.io/Frogger/" target="_blank" id="git">Live Site<img src="images\link.png" class="external"></a>
+      </span></h1>
+        <img src="images\frogger.png" class="project-img" data-aos="fade-up">
+    </div>
+      <div class="p4" data-aos="fade-up">
+        <h1 data-aos="fade-right">Pane Blog <br><span>Full Stack MERN blog posting application. Utilizes user authorization to create accounts, post, view, and delete a users own blog posts.
+          <br><a href="https://github.com/estrellaalvarez/pane-blog/tree/NewBranch" target="_blank" id="git">GitHub<img src="images\link.png" class="external-2"></a>
+        </span></h1>
+        <img src="images\pane.png" class="project-img" data-aos="fade-up">
+      </div>
+    </div>
+    <div id="contact">
+      <h1 class="title">Contact</h1>
+      <div class="contact-content" data-aos="fade-up">
+        <div class="contact-top">
+          <img src="images\env.png" class="env">
+          <div class="form">
+            <form action="https://formsubmit.co/estrellaaalvarez@yahoo.com" method="POST">
+              <input type="text" name="name" placeholder="Full Name" required>
+              <input type="email" name="email" placeholder="Email Address" required><br>
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea><br>
+              <button type="submit">Email Me</button>
+         </form>
+          </div>
+        </div>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/estrellalvarez/" target="_blank"><img src="images\linkedin.png" id="cont"></a>
+          <a href="https://github.com/estrellaalvarez" target="_blank" id="gi"><img src="images\github.png" id="cont"></a>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

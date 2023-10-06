@@ -1,0 +1,89 @@
+body {
+    position: relative;
+    background-image: url(images/pb.jpg);
+    background-size: 130%;
+    background-position: 50% 70%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    display: flex;
+    height: 80vh;
+    margin: 0px;
+    align-items: center;
+}
+
+.ea {
+    font-size: 80px;
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+    margin-top: 20px;
+}
+
+.bio {
+    font-size: 30px;
+    max-width: 900px;
+    margin: 20px;
+}
+
+.bold {
+    font-size: 35px;
+}
+
+.button-1 {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #000000;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+/* images */
+
+.me {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .ea{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .nav {
+        font-size: 8px;
+    }
+    .button-1 {
+        max-width: 45px;
+        max-height: 20px;
+        margin: 5px;
+        padding: 8px;
+    }
+    body {
+        background-size: 310%;
+    }
+}
+
